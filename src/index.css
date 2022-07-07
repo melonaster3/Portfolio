@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 @layer base {
@@ -26,7 +27,7 @@
 .content-div {
     background-image: linear-gradient(
         to right,
-        rgba(112,157,255, 0.8),
-        hsla(242, 74%, 61%, 0.8)
+        rgba(125,157,156, 0.8),
+        hsla(132, 7%, 87%, 0.5)
     )!important;
 }
