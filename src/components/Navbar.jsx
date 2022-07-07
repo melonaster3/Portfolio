@@ -15,7 +15,7 @@ function Navbar() {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed z-50 w-full h-[3rem] flex justify-between items-center px-4 bg-[#576F72] text-[#F0EBE3] ">
+    <div className="fixed z-50 w-full h-[3rem] flex justify-between items-center px-4 bg-[#576F72] text-[#F0EBE3]">
       <ul className="hidden md:flex">
         <li>
           <Link to="home" smooth={true} duration={500}>
@@ -87,7 +87,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/sang-l-91325a115/"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -95,7 +95,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#33333]">
             <a
               className="flex justify-between items-center w-full text-[#576F72]"
-              href="/"
+              href="https://drive.google.com/drive/u/0/recent"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
@@ -103,7 +103,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-[#576F72]"
-              href="/"
+              href="https://github.com/melonaster3"
             >
               Github <FaGithub size={30} />
             </a>
@@ -111,7 +111,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto:angyoon.lee@ucalgary.ca"
             >
               Email <HiOutlineMail size={30} />
             </a>

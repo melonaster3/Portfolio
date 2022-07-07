@@ -1,7 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
-import videoBg from "../assests/vid3.mov";
+import videoBg from "../assests/video5.mp4";
 
 const HomeCopy = () => {
   return (
@@ -20,7 +20,7 @@ const HomeCopy = () => {
               View Page
             </Link>
             <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight classname="ml-3" />
+              <HiArrowNarrowRight className="ml-3" />
             </span>
           </button>
         </div>

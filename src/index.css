@@ -17,6 +17,10 @@
     }
 }
 
+.project-div {
+    height : 2400px;
+}
+
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,10 +28,12 @@
     height: 250px;
 }
 
-.content-div {
+.content-div:hover {
     background-image: linear-gradient(
         to right,
         rgba(125,157,156, 0.8),
         hsla(132, 7%, 87%, 0.5)
     )!important;
 }
+
+
