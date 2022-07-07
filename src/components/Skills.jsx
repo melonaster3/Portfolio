@@ -19,35 +19,35 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
             <div className="hover:bg-[#F0EBE3] hover:scale-110 hover:font-bold duration-500 mt-14 pt-6">
-                <img className= "w-20 mx-auto"src={HTML}></img>
+                <img className= "w-20 mx-auto"src={HTML}  alt = "HTML"></img>
                 <p className="my-4">HTML</p>
             </div>
             <div className="hover:bg-[#F0EBE3] hover:scale-110 hover:font-bold duration-500 mt-14 pt-6 ">
-                <img className= "w-20 mx-auto"src={CSS}></img>
+                <img className= "w-20 mx-auto"src={CSS}  alt = "CSS"></img>
                 <p className="my-4">CSS</p>
             </div>
             <div className="hover:bg-[#F0EBE3] hover:scale-110 hover:font-bold duration-500 mt-14 pt-6">
-                <img className= "w-20 mx-auto"src={JS}></img>
+                <img className= "w-20 mx-auto"src={JS}  alt = "JS"></img>
                 <p className="my-4">JavaScript</p>
             </div>
             <div className="hover:bg-[#F0EBE3] hover:scale-110 hover:font-bold duration-500 mt-14 pt-6">
-                <img className= "w-20 mx-auto"src={TAILWIND}></img>
+                <img className= "w-20 mx-auto"src={TAILWIND}  alt = "Tailwind"></img>
                 <p className="my-4">Tailwind</p>
             </div>
             <div className="hover:bg-[#F0EBE3] hover:scale-110 hover:font-bold duration-500 mt-14 pt-6">
-                <img className= "w-20 mx-auto"src={NODE}></img>
+                <img className= "w-20 mx-auto"src={NODE}  alt = "node"></img>
                 <p className="my-4">Node.js</p>
             </div>
             <div className="hover:bg-[#F0EBE3] hover:scale-110 hover:font-bold duration-500 mt-14 pt-6">
-                <img className= "w-20 mx-auto"src={REACT}></img>
+                <img className= "w-20 mx-auto"src={REACT}  alt = "react"></img>
                 <p className="my-4">React</p>
             </div>
             <div className="hover:bg-[#F0EBE3] hover:scale-110 hover:font-bold duration-500 mt-14 pt-6">
-                <img className= "w-20 mx-auto"src={RUBY}></img>
+                <img className= "w-20 mx-auto"src={RUBY}  alt = "ruby"></img>
                 <p className="my-4">Ruby</p>
             </div>
             <div className="hover:bg-[#F0EBE3] hover:scale-110 hover:font-bold duration-500 mt-14 pt-6">
-                <img className= "w-20 mx-auto"src={GITHUB}></img>
+                <img className= "w-20 mx-auto"src={GITHUB}  alt = "github"></img>
                 <p className="my-4">Github</p>
             </div>
 
