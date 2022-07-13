@@ -11,9 +11,10 @@ import TAILWIND from '../assests/tailwind.png'
 
 const Skills = () => {
   return (
-    <div name="skills" className="bg-[black] text-[#F0EBE3] w-full h-screen">
+    <div name="skills" className="bg-[black] text-[#F0EBE3] w-full h-fit  pt-56 pb-96  ">
+      
       <div className = 'max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div>
+        <div className = "mb-10">
           <p className = 'text-4xl font-bold inline border-b-4 border-[#76BB85]' data-aos="fade-down">Skills</p>
         </div>
 
