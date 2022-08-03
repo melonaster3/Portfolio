@@ -31,7 +31,7 @@ const ProjectCopy = () => {
               </p>
               <a
                 className="ml-6"
-                href="https://github.com/melonaster3/tweeter"
+                href="https://github.com/minhvo1/folio"
                 data-aos="fade-in"
               >
                 <FaGithub size={30} />
