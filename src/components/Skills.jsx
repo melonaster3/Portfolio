@@ -1,6 +1,6 @@
 import React from "react";
 import CSS from "../assests/css.png";
-import GITHUB from "../assests/github.png";
+import POSTGRES from "../assests/postgreSQL.png";
 import HTML from "../assests/html.png";
 import JS from "../assests/javascript.png";
 import NODE from "../assests/node.png";
@@ -78,8 +78,8 @@ const Skills = () => {
             className="hover:bg-white hover:scale-110 hover:font-bold hover:text-[black] duration-500 mt-14 pt-6"
             data-aos="flip-up"
           >
-            <img className="w-20 mx-auto" src={GITHUB} alt="github"></img>
-            <p className="my-4">Github</p>
+            <img className="w-20 mx-auto" src={POSTGRES} alt="github"></img>
+            <p className="my-4">PostgreSQL</p>
           </div>
         </div>
       </div>
